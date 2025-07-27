@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/marumo-sound/static/css/main.185cf6fa.css",
-    "main.js": "/marumo-sound/static/js/main.5bcf9247.js",
+    "main.js": "/marumo-sound/static/js/main.12cc9f67.js",
     "index.html": "/marumo-sound/index.html",
     "main.185cf6fa.css.map": "/marumo-sound/static/css/main.185cf6fa.css.map",
-    "main.5bcf9247.js.map": "/marumo-sound/static/js/main.5bcf9247.js.map"
+    "main.12cc9f67.js.map": "/marumo-sound/static/js/main.12cc9f67.js.map"
   },
   "entrypoints": [
     "static/css/main.185cf6fa.css",
-    "static/js/main.5bcf9247.js"
+    "static/js/main.12cc9f67.js"
   ]
 }
