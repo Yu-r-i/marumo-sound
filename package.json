@@ -2,7 +2,7 @@
   "name": "marumo-sound",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Yu-r-i.github.io/marumo-sound",
+  "homepage": "https://yu-r-i.github.io/marumo-sound/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.4",
