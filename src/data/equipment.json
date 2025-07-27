@@ -1,0 +1,6 @@
+[
+  { "category": "Microphones", "manufacturer": "SHURE", "model": "SM58", "quantity": "10" },
+  { "category": "Microphones", "manufacturer": "Audio-Technica", "model": "AT2020", "quantity": "5" },
+  { "category": "Speakers", "manufacturer": "Yamaha", "model": "DXR12", "quantity": "4" },
+  { "category": "Mixers", "manufacturer": "Behringer", "model": "X32", "quantity": "2" }
+]

@@ -1,38 +1,29 @@
 /**
  * src/hooks/useEquipmentData.js
  * 
- * This custom hook fetches and processes equipment data from a CSV file.
- * It returns the data grouped by category and a loading state.
+ * Custom hook to fetch and structure equipment data from a JSON file.
  */
 
 import { useEffect, useState } from "react";
-import Papa from "papaparse";
-import rawCsv from "../data/equipment.csv?raw";
+import jsonData from "../data/equipment.json";
 
 export function useEquipmentData() {
   const [data, setData] = useState({});
-  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    Papa.parse(rawCsv, {
-      header: true,
-      complete: (results) => {
-        const grouped = {};
-        results.data.forEach(item => {
-          const cat = item.category?.trim();
-          if (!cat) return;
-          if (!grouped[cat]) grouped[cat] = [];
-          grouped[cat].push({
-            manufacturer: item.manufacturer,
-            model: item.model,
-            quantity: item.quantity,
-          });
-        });
-        setData(grouped);
-        setLoading(false);
-      }
+    const grouped = {};
+    jsonData.forEach(item => {
+      const cat = item.category?.trim();
+      if (!cat) return;
+      if (!grouped[cat]) grouped[cat] = [];
+      grouped[cat].push({
+        manufacturer: item.manufacturer,
+        model: item.model,
+        quantity: item.quantity,
+      });
     });
+    setData(grouped);
   }, []);
 
-  return { data, loading };
+  return { data, loading: false };
 }
