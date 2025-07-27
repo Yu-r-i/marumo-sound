@@ -1,0 +1,16 @@
+/**
+ * src/styles.css
+ * 
+ * This file contains global styles for the application.
+ * It sets the font family, background color, and resets margin and padding for the body element.
+ */
+
+/* 
+ * Set default styles for body
+ */
+body {
+  font-family: sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 0;
+}
