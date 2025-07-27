@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/marumo-sound/static/js/main.562fe483.js",
+    "main.js": "/marumo-sound/static/js/main.447b1057.js",
     "index.html": "/marumo-sound/index.html",
-    "main.562fe483.js.map": "/marumo-sound/static/js/main.562fe483.js.map"
+    "main.447b1057.js.map": "/marumo-sound/static/js/main.447b1057.js.map"
   },
   "entrypoints": [
-    "static/js/main.562fe483.js"
+    "static/js/main.447b1057.js"
   ]
 }
