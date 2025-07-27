@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/marumo-sound/static/css/main.185cf6fa.css",
+    "main.js": "/marumo-sound/static/js/main.a9f83eb6.js",
+    "index.html": "/marumo-sound/index.html",
+    "static/media/equipment.csv?raw": "/marumo-sound/static/media/equipment.621b64837ef20a904fcb.csv",
+    "main.185cf6fa.css.map": "/marumo-sound/static/css/main.185cf6fa.css.map",
+    "main.a9f83eb6.js.map": "/marumo-sound/static/js/main.a9f83eb6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.185cf6fa.css",
+    "static/js/main.a9f83eb6.js"
+  ]
+}
