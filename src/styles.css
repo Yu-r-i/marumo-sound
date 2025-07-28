@@ -14,3 +14,18 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/**
+ * Header styles
+ * 
+ * This section styles the header of the application.
+ * It sets the background color, text color, padding, and shadow for the header.
+ */
+header.app-header {
+  background-color: #1f2937;
+  color: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  font-size: 1.25rem;
+  font-weight: bold;
+}
