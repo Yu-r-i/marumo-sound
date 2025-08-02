@@ -6,14 +6,16 @@
  */
 
 import React from "react";
+import "../styles.css";
 
 const EquipmentCard = ({ manufacturer, model, quantity }) => {
   return (
-    <div className="border rounded-xl shadow-md p-4 bg-white">
-      <h3 className="text-lg font-semibold">
-        {manufacturer} {model}
-      </h3>
-      <p className="text-sm text-gray-600">Quantity: {quantity}</p>
+    <div className="equipment-card">
+      <div className="equipment-row">
+        <span className="item manufacturer">{manufacturer}</span>
+        <span className="item model">{model}</span>
+        <span className="item quantity">{quantity}台</span>
+      </div>
     </div>
   );
 };

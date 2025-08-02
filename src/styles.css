@@ -15,7 +15,7 @@ body {
   padding: 0;
 }
 
-/**
+/*
  * Header styles
  * 
  * This section styles the header of the application.
@@ -28,4 +28,42 @@ header.app-header {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   font-size: 1.25rem;
   font-weight: bold;
+}
+
+/*
+ * Equipment card styles
+ * 
+ * This section styles the equipment cards displayed in the application.
+ * It sets the background color, border, padding, and shadow for each card.
+ */
+ .equipment-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+.equipment-row {
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  display: inline-block;
+  padding: 0 3rem;
+  font-size: 1rem;
+  color: #1f2937;
+}
+
+.manufacturer {
+  width: 30%;
+  font-weight: bold;
+}
+.model {
+  width: 30%;
+}
+.quantity {
+  width: 30%;
+  color: #6b7280;
 }

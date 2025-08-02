@@ -1,0 +1,19 @@
+{
+  "EquipmentCard": [
+    {
+      "propName": "model",
+      "propType": "string",
+      "defaultValue": "SM58"
+    },
+    {
+      "propName": "manufacturer",
+      "propType": "string",
+      "defaultValue": "SHURE"
+    },
+    {
+      "propName": "quantity",
+      "propType": "string",
+      "defaultValue": "2"
+    }
+  ]
+}
