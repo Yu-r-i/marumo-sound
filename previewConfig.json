@@ -15,5 +15,12 @@
       "propType": "string",
       "defaultValue": "2"
     }
+  ],
+  "EquipmentCategory": [
+    {
+      "propName": "title",
+      "propType": "string",
+      "defaultValue": "mic"
+    }
   ]
 }
