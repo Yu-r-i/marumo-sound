@@ -6,11 +6,11 @@
  */
 
 import React from "react";
-import { useEquipmentData } from "../hooks/useEquipmentData";
+import { UseEquipmentData } from "../hooks/UseEquipmentData";
 import EquipmentCategory from "./EquipmentCategory";
 
 const EquipmentList = () => {
-  const { data, loading } = useEquipmentData();
+  const { data, loading } = UseEquipmentData();
 
   if (loading) return <p>Loading...</p>;
 
